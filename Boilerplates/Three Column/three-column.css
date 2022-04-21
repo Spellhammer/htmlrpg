@@ -1,0 +1,39 @@
+:root {
+    /* Vars */
+    --htmlrpg-fontsize: 1.4rem;
+}
+
+/*** Core Elements ****/
+body {
+    font-size: 62.5%;
+}
+
+/*** Utilities ***/
+.htmlrpg-italic {
+    font-style: italic;
+}
+
+.htmlrpg-node {
+    /* For later */
+}
+
+.htmlrpg-page {
+    /* Section */
+    font-size: var(--htmlrpg-fontsize);
+    column-count: 3;
+    column-gap: 32px;
+    padding: 32px;
+}
+
+.htmlrpg-column.htmlrpg-column--span {
+    display: block;
+    column-span: all;
+}
+
+.htmlrpg-column {
+    display: inline-block;
+    break-inside: avoid-column;
+}
+
+.htmlrpg-paragraph {
+}
